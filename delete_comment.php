@@ -19,7 +19,7 @@ if( isset($_POST['submit'])){
         $link = mysqli_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PWD, MYSQL_DB); 
         $post_id = mysqli_real_escape_string($link, $post_id);
         $uid=$_SESSION['user_id']; 
-        $sql="SELECT id FROM comments WHERE id = $post_id AND user_id = $uid"; 
+        $sql="SELECT post_id FROM comments WHERE id = $post_id AND user_id = $uid"; 
         $result = mysqli_query ($link, $sql); 
         
         if($result && mysqli_num_rows($result)== 1){ 
