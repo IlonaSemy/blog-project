@@ -32,8 +32,7 @@ if(isset($_POST['submit'])){
     $comresult = mysqli_query($com_link,$comsql); 
     
     if($comresult && mysqli_affected_rows($com_link)>0){ 
-        
-        header('location:readMore.php');
+        header("location:readMore.php?id=$post_id");
     }
 }
 }
