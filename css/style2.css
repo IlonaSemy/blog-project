@@ -230,9 +230,9 @@ span.editdel a:hover{
     position:static;
     padding: 14px;  
     margin: 0px;
-   border-top: 2px solid #ccc; 
+    border-top: 2px solid #ccc; 
     /* "transparent" only works here because == rgba(0,0,0,0) */
-   /* background-image: linear-gradient(to bottom, transparent,#761c19 );*/
+    /* background-image: linear-gradient(to bottom, transparent,#761c19 );*/
 }
 
 .sidebar-box .read-more a:link{
@@ -241,7 +241,7 @@ span.editdel a:hover{
     color:black; 
     font-weight: bold; 
     font-size: 20px; 
-     margin: 0 auto;
+    margin: 0 auto;
 } 
 .sidebar-box .read-more a:hover{
     color:#761c19;
@@ -249,13 +249,13 @@ span.editdel a:hover{
 }
 
 .ta-wrapper{
-    
-   padding-left:12px; 
-   margin-right:12px;
+
+    padding-left:12px; 
+    margin-right:12px;
 } 
 .content.posts-wrapper{
-    
-     position: absolute;
+
+    position: absolute;
     left: 15px;
     top: 15px;
     width: 150px;
@@ -263,7 +263,7 @@ span.editdel a:hover{
     vertical-align: middle;
     text-align: center;
     padding: 1em 0 1em 0;
-display: table;
+    display: table;
 } 
 /*.post-box-wrapper{ 
   d
@@ -272,14 +272,14 @@ display: table;
 }*/ 
 
 .comwrapper{
-     width: 980px;
+    width: 980px;
     height: 100%;
     margin: 0 auto;
     padding-top: 20px; 
     padding-bottom: 20px;
     text-align: center;
 
-    }
+}
 .comwrapper a:link{
     list-style:none; 
     font-size: 20px; 
@@ -287,15 +287,15 @@ display: table;
     color:black; 
     font-weight: bold; 
     font-size: 20px; 
-     margin: 0 auto;
-    }
+    margin: 0 auto;
+}
 
-    .sidebar-box-com { 
+.sidebar-box-com { 
     width: 50%; 
     height: 20%;
     padding: 10px ; 
     border-top:2px solid #ccc; 
-   
+
     margin:0 auto;
     overflow: hidden;
     margin-top: 10px; 
@@ -303,7 +303,7 @@ display: table;
 }
 
 span.editdelcom a:link{ 
-    
+
     text-decoration: none;
     color:black; 
     font-weight: bold; 
@@ -331,3 +331,6 @@ span.editdelcom a:hover{
     font-weight: bold;
 
 } 
+.post-box-wrapper p{
+    word-wrap:  break-word;
+}
